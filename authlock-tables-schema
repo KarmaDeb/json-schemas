@@ -10,7 +10,8 @@
           "name": {"type": "string"},
           "columns": {
             "type": "object",
-            "additionalProperties": {"type": "string"}
+            "additionalProperties": {"type": "string"},
+            "required": ["id"]
           }
         },
         "required": ["name", "columns"]
